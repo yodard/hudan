@@ -12,7 +12,7 @@
         This variable is stating that, it is looking for the url property that is 
         in the site config file.
     -->
-    <link href="{{ site.url }}/assets/css/styles.css" rel="stylesheet" type="text/css">
+    <link href="{{ site.url }}/assets/css/styles.scss" rel="stylesheet" type="text/css">
     <title>Document</title>
 </head>
 <body>
@@ -22,7 +22,7 @@
         includes are housed in the includes folder. They can be given any name you like. 
         You can call them into any page you want, as long as you are using the below format.
     -->
-    {% include nav%}
+    {% include nav.html%}
     {{content}}
 </body>
 </html>
